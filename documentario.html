@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentário - Saúde Mental e Tecnologia</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/documentario.css">
+</head>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>SAÚDE MENTAL E TECNOLOGIA</h1>
+            </hgroup>
+        </header>
+        <nav id="menu">
+            <div id="menuToggle">☰</div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="documentario.html">DOCUMENTÁRIO</a></li>
+            </ul>
+        </nav>
+        <figcaption id="fotoPrincipal">
+            <img src="_imagens/imgDocumentario.jpg"/>
+        </figcaption>
+        <section id="conteudo">
+            <div id="titulo-saude">
+                <h3>DOCUMENTÁRIO</h3>
+            </div>
+              <p>Esse site foi feito para o projeto do primeiro semestre de 2025 da Atividade de Extensão pela Cruzeiro do Sul. O que são as atividades de extensão? São atividades que envolvem diretamente as comunidades externas, sejam elas locais, regionais, nacionais ou internacionais, relacionadas à formação acadêmica dos alunos na Educação Superior.</p>
+              <p>A seguir, você pode acompanhar a etapa 'Documentário Fotográfico' feito pelo aluno Caetano, do curso de Análise e Desenvolvimento de Sistemas, no espaço do CEUS do Jardim Eldorado, localizado na cidade da Palhoça (SC).</p>
+            <div class="galeria">
+                <img src="_documentario/foto01.jpg">
+                <img src="_documentario/foto02.jpg">
+                <img src="_documentario/foto03.jpg">
+                <img src="_documentario/foto04.jpg">
+        </div>
+        </section>
+        <footer id="rodape">
+            <p>&copy; 2025 Projeto Saúde Mental e Tecnologia</p>
+        </footer>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var menuToggle = document.getElementById("menuToggle");
+            var menu = document.querySelector("#menu ul");
+
+            menuToggle.addEventListener("click", function() {
+                menu.classList.toggle("show");
+            });
+        });
+    </script>
+</body>
+</html>

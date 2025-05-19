@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde Mental e Tecnologia</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>SAÚDE MENTAL E TECNOLOGIA</h1>
+            </hgroup>
+        </header>
+        <nav id="menu">
+            <div id="menuToggle">☰</div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="documentario.html">DOCUMENTÁRIO</a></li>
+            </ul>
+        </nav>
+
+        <figcaption id="fotoPrincipal">
+            <img src="_imagens/imgSaudeMental.jpg"/>
+        </figcaption>
+        <section id="conteudo">
+            <div id="titulo-saude">
+                <h3>TECNOLOGIA, SAÚDE MENTAL E POSTURA</h3>
+            </div>
+            <p>O uso excessivo de dispositivos eletrônicos e redes sociais pode afetar significativamente a saúde mental e a postura física dos jovens. É essencial entender esses impactos para buscar equilíbrio no dia a dia.</p>
+            <p>Em relação à saúde mental, o uso intenso de redes sociais pode gerar ansiedade e depressão, especialmente por conta das comparações constantes e da exposição a conteúdos idealizados. A autoestima dos jovens também pode ser prejudicada, principalmente quando são expostos a padrões inalcançáveis e comentários negativos. Além disso, há o risco de isolamento social, quando as interações virtuais substituem os encontros presenciais, dificultando a construção de vínculos reais. O uso compulsivo da tecnologia pode levar à dependência digital, causando até mesmo sintomas de abstinência quando o acesso é interrompido. Outro fator importante é o impacto no sono: o uso de telas antes de dormir pode reduzir a qualidade do descanso. Casos de cyberbullying também merecem atenção, pois afetam diretamente o bem-estar emocional dos jovens.</p>
+            <p>No aspecto físico, o uso prolongado de dispositivos com má postura pode causar dores no pescoço, ombros, costas e olhos. A chamada "síndrome do pescoço tecnológico" surge devido à inclinação constante da cabeça para baixo ao olhar para telas, provocando rigidez e desconforto na região cervical. A visão também pode ser afetada, com o surgimento de fadiga ocular após longos períodos de exposição. Além disso, a falta de atividade física e a permanência em posturas inadequadas contribuem para o enfraquecimento muscular, aumentando o risco de lesões.</p>
+            <p>Buscar um equilíbrio entre o uso da tecnologia e hábitos saudáveis é fundamental. Estabelecer limites para o tempo de tela, fazer pausas regulares, manter uma boa postura, praticar atividades físicas e priorizar o contato social presencial são atitudes que ajudam a preservar tanto a saúde mental quanto a física. A conscientização e o diálogo sobre esses temas são essenciais para garantir o bem-estar dos jovens em meio à era digital.</p>
+        </section>
+        <footer id="rodape">
+            <p>&copy; 2025 Projeto Saúde Mental e Tecnologia</p>
+        </footer>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var menuToggle = document.getElementById("menuToggle");
+            var menu = document.querySelector("#menu ul");
+
+            menuToggle.addEventListener("click", function() {
+                menu.classList.toggle("show");
+            });
+        });
+    </script>
+</body>
+</html>
